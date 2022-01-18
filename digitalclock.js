@@ -25,9 +25,7 @@ function showTime() {
     document.getElementById("secs").innerHTML=`${sec} <br> secs`
     document.getElementById("am").innerHTML=am_pm
 
-    // let currentTime = hour + ":" 
-    // + min + ":" + sec + am_pm;
-	
+  
 }
 showTime();
 setInterval(showTime, 1000);
