@@ -72,15 +72,18 @@ function settime(){
     if(i==time){
         document.getElementById("image").style.backgroundImage="url(./wakeup_image.svg)";
         document.getElementById("newcomment").innerHTML="Lets have some breakfast"
+        document.getElementById("wish").innerHTML="Good morning !!"
     }
     else if(j==time){
         document.getElementById("image").style.backgroundImage="url(./lunch_image.svg)";
         document.getElementById("newcomment").innerHTML="Lets have some lunch"
+        document.getElementById("wish").innerHTML="Good afternoon !!"
     
     }
     else if(k==time){
         document.getElementById("image").style.backgroundImage="url(./goodnight_image.svg)";
         document.getElementById("newcomment").innerHTML="Lets sleep"
+        document.getElementById("wish").innerHTML="Good night !!"
     
     }
     else{
