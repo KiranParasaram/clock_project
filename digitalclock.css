@@ -167,13 +167,19 @@ option{
 #image{
     width:460px;
     height:430px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
    background-image: url(https://media.istockphoto.com/photos/happy-new-year-background-picture-id1344031966?b=1&k=20&m=1344031966&s=170667a&w=0&h=3Nyg-GF2adPyWO53B5-S_CfOG4g_f-pstoNi-eWv-Zk=);
    /* background-repeat: no-repeat; */
    background-size: cover;
    background-position: center;
     margin-top: 60px;
     background-color: aliceblue;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    position: absolute;
+    left:520px;
+    top: 150px;
    
 }
 
@@ -227,17 +233,24 @@ option{
     flex-direction: column;
     align-items: center;
     justify-content:space-evenly;
+    position: absolute;
+    left: 0;
+    top: 420px;
 }
 #newcomment{
-    width:350px;
+    width:460px;
     height: 50px;
-    background-color: #00000033;
-    color: rgb(233, 233, 243);
+    background-color: aliceblue;
+    color: rgb(66, 28, 235);
     font-size: 25px;
     text-align: center;
     
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     position: absolute;
-    bottom:70px
+    left:520px;
+    top:170px
+
 }
 
